@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 
 <h1 class="titill">Myndasida FSS</h1>
-
-<div class="photos" ng-repeat="mynd in myndir.photos">
-    <img src="{{ mynd.url }}"></img>
-</div>
+<body>
+  <div class="post" ng-repeat="mynd in myndir.photos">
+    <div class="titill">
+      {{ mynd.title }}
+    </div>
+    <div class="mynd">
+      <img src="{{ mynd.url }}"></img>
+    </div>
+    <div class="lysing">
+      {{ mynd.desc }}
+    </div>
+  </div>
+</body>
