@@ -4,3 +4,17 @@ h1.titill {
   border-style: solid;
   border-width: 2px 205px 4px 205px;
 }
+
+div.post {
+  border: double;
+}
+
+img {
+  max-width: 400px;
+  max-height: 500px;
+
+}
+
+body {
+  text-align: center;
+}

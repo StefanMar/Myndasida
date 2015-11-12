@@ -1,10 +1,11 @@
 app.factory('photos', ['$http', function($http) {
-  return $http.get('mockup.json')
+  console.log(33)
+  return $http.get('mockup.html')
             .success(function(data) {
-              console.log("kk")
               return data;
             })
             .error(function(err) {
+              console.log(err)
               return err;
             });
 }]);
