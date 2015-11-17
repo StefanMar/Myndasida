@@ -5,6 +5,10 @@ app.config(function ($routeProvider) {
       controller: "MainController",
       templateUrl: "views/homepage.html"
     })
+    .when('/comments', {
+      controller: 'CommentController',
+      templateUrl: 'views/comment.html'
+    })
     .when('LINKFYRIRLOGINDOITLATERYOUSEXYBABES', {
       controller: 'LoginController',
       templateUrl: 'views/login.html'

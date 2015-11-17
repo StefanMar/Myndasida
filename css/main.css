@@ -31,3 +31,10 @@ img {
 body {
   text-align: center;
 }
+
+#comment {
+  max-width: 400px;
+  max-height: 150px;
+  min-width: 400px;
+  min-height: 150px;
+}
