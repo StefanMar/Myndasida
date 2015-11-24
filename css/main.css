@@ -1,5 +1,6 @@
 body {
   background-color:#c3dfef;
+  text-align: center;
 }
 
 h1.titill {
@@ -26,10 +27,6 @@ div.titill {
 img {
   max-width: 500px;
   max-height: 700px;
-}
-
-body {
-  text-align: center;
 }
 
 #comment {
