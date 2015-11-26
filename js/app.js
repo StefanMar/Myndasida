@@ -5,7 +5,7 @@ app.config(function ($routeProvider) {
       controller: "MainController",
       templateUrl: "views/homepage.html"
     })
-    .when('/comments', {
+    .when('/comment/:id', {
       controller: 'CommentController',
       templateUrl: 'views/comment.html'
     })
